@@ -20,7 +20,8 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gAa-j5-7St" userLabel="快门按钮">
-                    <state key="normal" title="ddd" backgroundImage="LSCamera.bundle/ic_waterprint_shutter.png"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                    <state key="normal" title="✓" backgroundImage="LSCamera.bundle/ic_waterprint_shutter.png"/>
                     <connections>
                         <action selector="clickBtnAction:" destination="-1" eventType="touchUpInside" id="Nyn-lD-rEk"/>
                     </connections>
