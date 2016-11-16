@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -26,7 +27,25 @@
                     <state key="normal" image="LSCamera.bundle/ic_waterprint_share.png"/>
                 </button>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wkU-5Y-dxr" userLabel="预览视图">
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5vf-Ck-P42" userLabel="左侧快门视图">
+                            <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AZe-zg-ggp" userLabel="右侧快门视图">
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
                     <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="5vf-Ck-P42" firstAttribute="top" secondItem="wkU-5Y-dxr" secondAttribute="top" id="5Ee-7W-3Kh"/>
+                        <constraint firstItem="AZe-zg-ggp" firstAttribute="top" secondItem="wkU-5Y-dxr" secondAttribute="top" id="Aeq-80-ebj"/>
+                        <constraint firstAttribute="leading" secondItem="5vf-Ck-P42" secondAttribute="trailing" priority="999" id="DaN-fN-fAw"/>
+                        <constraint firstAttribute="bottom" secondItem="AZe-zg-ggp" secondAttribute="bottom" id="OhW-yN-Kvo"/>
+                        <constraint firstItem="5vf-Ck-P42" firstAttribute="width" secondItem="wkU-5Y-dxr" secondAttribute="width" multiplier="0.5" id="WHs-ls-HdG"/>
+                        <constraint firstAttribute="trailing" secondItem="AZe-zg-ggp" secondAttribute="leading" priority="999" id="YYG-rd-LM5"/>
+                        <constraint firstAttribute="bottom" secondItem="5vf-Ck-P42" secondAttribute="bottom" id="obL-e6-1fF"/>
+                        <constraint firstItem="AZe-zg-ggp" firstAttribute="width" secondItem="wkU-5Y-dxr" secondAttribute="width" multiplier="0.5" id="w1a-Fh-ubW"/>
+                    </constraints>
                 </view>
             </subviews>
             <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
