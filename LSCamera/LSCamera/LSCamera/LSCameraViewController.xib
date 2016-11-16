@@ -10,8 +10,8 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LSCameraViewController">
             <connections>
                 <outlet property="view" destination="i5M-Pr-FkT" id="Ixw-wK-xGj"/>
-                <outletCollection property="maskViewConstraint" destination="YYG-rd-LM5" id="pXp-If-vLf"/>
-                <outletCollection property="maskViewConstraint" destination="DaN-fN-fAw" id="3Rg-JB-ei6"/>
+                <outletCollection property="maskViewConstraint" destination="mI4-x9-wZQ" id="0gC-1M-LcZ"/>
+                <outletCollection property="maskViewConstraint" destination="QJC-xG-y8a" id="K10-cK-Hf3"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -58,11 +58,13 @@
                     <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstItem="5vf-Ck-P42" firstAttribute="top" secondItem="wkU-5Y-dxr" secondAttribute="top" id="5Ee-7W-3Kh"/>
+                        <constraint firstItem="AZe-zg-ggp" firstAttribute="trailing" secondItem="wkU-5Y-dxr" secondAttribute="trailing" priority="999" id="AEW-6d-uUI"/>
                         <constraint firstItem="AZe-zg-ggp" firstAttribute="top" secondItem="wkU-5Y-dxr" secondAttribute="top" id="Aeq-80-ebj"/>
-                        <constraint firstAttribute="leading" secondItem="5vf-Ck-P42" secondAttribute="trailing" priority="999" id="DaN-fN-fAw"/>
+                        <constraint firstItem="5vf-Ck-P42" firstAttribute="leading" secondItem="wkU-5Y-dxr" secondAttribute="leading" priority="999" id="DaN-fN-fAw"/>
                         <constraint firstAttribute="bottom" secondItem="AZe-zg-ggp" secondAttribute="bottom" id="OhW-yN-Kvo"/>
+                        <constraint firstAttribute="leading" secondItem="5vf-Ck-P42" secondAttribute="trailing" constant="52" id="QJC-xG-y8a"/>
                         <constraint firstItem="5vf-Ck-P42" firstAttribute="width" secondItem="wkU-5Y-dxr" secondAttribute="width" multiplier="0.5" id="WHs-ls-HdG"/>
-                        <constraint firstAttribute="trailing" secondItem="AZe-zg-ggp" secondAttribute="leading" priority="999" id="YYG-rd-LM5"/>
+                        <constraint firstItem="AZe-zg-ggp" firstAttribute="leading" secondItem="wkU-5Y-dxr" secondAttribute="trailing" constant="52" id="mI4-x9-wZQ"/>
                         <constraint firstAttribute="bottom" secondItem="5vf-Ck-P42" secondAttribute="bottom" id="obL-e6-1fF"/>
                         <constraint firstItem="AZe-zg-ggp" firstAttribute="width" secondItem="wkU-5Y-dxr" secondAttribute="width" multiplier="0.5" id="w1a-Fh-ubW"/>
                     </constraints>
