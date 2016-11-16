@@ -13,6 +13,9 @@
 		51266E9B1DDC7B9800A3AB4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51266E991DDC7B9800A3AB4F /* Main.storyboard */; };
 		51266E9D1DDC7B9800A3AB4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51266E9C1DDC7B9800A3AB4F /* Assets.xcassets */; };
 		51266EA01DDC7B9800A3AB4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51266E9E1DDC7B9800A3AB4F /* LaunchScreen.storyboard */; };
+		51266EAB1DDC7CC900A3AB4F /* LSCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51266EA91DDC7CC900A3AB4F /* LSCameraViewController.m */; };
+		51266EAC1DDC7CC900A3AB4F /* LSCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51266EAA1DDC7CC900A3AB4F /* LSCameraViewController.xib */; };
+		51266EDB1DDC7D8B00A3AB4F /* LSCamera.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 51266EDA1DDC7D8B00A3AB4F /* LSCamera.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,10 @@
 		51266E9C1DDC7B9800A3AB4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51266E9F1DDC7B9800A3AB4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51266EA11DDC7B9800A3AB4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51266EA81DDC7CC900A3AB4F /* LSCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSCameraViewController.h; sourceTree = "<group>"; };
+		51266EA91DDC7CC900A3AB4F /* LSCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSCameraViewController.m; sourceTree = "<group>"; };
+		51266EAA1DDC7CC900A3AB4F /* LSCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSCameraViewController.xib; sourceTree = "<group>"; };
+		51266EDA1DDC7D8B00A3AB4F /* LSCamera.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LSCamera.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 		51266E8F1DDC7B9800A3AB4F /* LSCamera */ = {
 			isa = PBXGroup;
 			children = (
+				51266EA71DDC7C9000A3AB4F /* LSCamera */,
 				51266E931DDC7B9800A3AB4F /* AppDelegate.h */,
 				51266E941DDC7B9800A3AB4F /* AppDelegate.m */,
 				51266E961DDC7B9800A3AB4F /* ViewController.h */,
@@ -77,6 +85,17 @@
 				51266E911DDC7B9800A3AB4F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51266EA71DDC7C9000A3AB4F /* LSCamera */ = {
+			isa = PBXGroup;
+			children = (
+				51266EDA1DDC7D8B00A3AB4F /* LSCamera.bundle */,
+				51266EA81DDC7CC900A3AB4F /* LSCameraViewController.h */,
+				51266EA91DDC7CC900A3AB4F /* LSCameraViewController.m */,
+				51266EAA1DDC7CC900A3AB4F /* LSCameraViewController.xib */,
+			);
+			path = LSCamera;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +158,9 @@
 			files = (
 				51266EA01DDC7B9800A3AB4F /* LaunchScreen.storyboard in Resources */,
 				51266E9D1DDC7B9800A3AB4F /* Assets.xcassets in Resources */,
+				51266EAC1DDC7CC900A3AB4F /* LSCameraViewController.xib in Resources */,
 				51266E9B1DDC7B9800A3AB4F /* Main.storyboard in Resources */,
+				51266EDB1DDC7D8B00A3AB4F /* LSCamera.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +173,7 @@
 			files = (
 				51266E981DDC7B9800A3AB4F /* ViewController.m in Sources */,
 				51266E951DDC7B9800A3AB4F /* AppDelegate.m in Sources */,
+				51266EAB1DDC7CC900A3AB4F /* LSCameraViewController.m in Sources */,
 				51266E921DDC7B9800A3AB4F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
