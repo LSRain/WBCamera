@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -41,7 +42,7 @@
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstItem="aAH-ut-tJP" firstAttribute="centerY" secondItem="5vf-Ck-P42" secondAttribute="centerY" id="TAE-pa-q7B"/>
-                                <constraint firstItem="aAH-ut-tJP" firstAttribute="centerX" secondItem="5vf-Ck-P42" secondAttribute="centerX" id="w8j-8h-47Z"/>
+                                <constraint firstItem="aAH-ut-tJP" firstAttribute="centerX" secondItem="5vf-Ck-P42" secondAttribute="trailing" id="w8j-8h-47Z"/>
                             </constraints>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AZe-zg-ggp" userLabel="右侧快门视图">
@@ -50,7 +51,7 @@
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
-                                <constraint firstItem="dFy-sv-Mjc" firstAttribute="centerX" secondItem="AZe-zg-ggp" secondAttribute="centerX" id="4U6-v0-JSe"/>
+                                <constraint firstItem="dFy-sv-Mjc" firstAttribute="centerX" secondItem="AZe-zg-ggp" secondAttribute="leading" id="4U6-v0-JSe"/>
                                 <constraint firstItem="dFy-sv-Mjc" firstAttribute="centerY" secondItem="AZe-zg-ggp" secondAttribute="centerY" id="8QM-0L-S4T"/>
                             </constraints>
                         </view>
