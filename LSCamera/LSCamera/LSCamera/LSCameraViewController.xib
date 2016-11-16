@@ -36,9 +36,9 @@
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5vf-Ck-P42" userLabel="左侧快门视图">
                             <subviews>
-                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="ic_shutter_center_left.png" translatesAutoresizingMaskIntoConstraints="NO" id="aAH-ut-tJP"/>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="LSCamera.bundle/ic_shutter_center_left.png" translatesAutoresizingMaskIntoConstraints="NO" id="aAH-ut-tJP"/>
                             </subviews>
-                            <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstItem="aAH-ut-tJP" firstAttribute="centerY" secondItem="5vf-Ck-P42" secondAttribute="centerY" id="TAE-pa-q7B"/>
                                 <constraint firstItem="aAH-ut-tJP" firstAttribute="centerX" secondItem="5vf-Ck-P42" secondAttribute="centerX" id="w8j-8h-47Z"/>
@@ -46,9 +46,9 @@
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AZe-zg-ggp" userLabel="右侧快门视图">
                             <subviews>
-                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="ic_shutter_center_right.png" translatesAutoresizingMaskIntoConstraints="NO" id="dFy-sv-Mjc"/>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="LSCamera.bundle/ic_shutter_center_right.png" translatesAutoresizingMaskIntoConstraints="NO" id="dFy-sv-Mjc"/>
                             </subviews>
-                            <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstItem="dFy-sv-Mjc" firstAttribute="centerX" secondItem="AZe-zg-ggp" secondAttribute="centerX" id="4U6-v0-JSe"/>
                                 <constraint firstItem="dFy-sv-Mjc" firstAttribute="centerY" secondItem="AZe-zg-ggp" secondAttribute="centerY" id="8QM-0L-S4T"/>
@@ -85,10 +85,10 @@
         </view>
     </objects>
     <resources>
+        <image name="LSCamera.bundle/ic_shutter_center_left.png" width="66" height="66"/>
+        <image name="LSCamera.bundle/ic_shutter_center_right.png" width="66" height="66"/>
         <image name="LSCamera.bundle/ic_waterprint_close.png" width="66" height="66"/>
         <image name="LSCamera.bundle/ic_waterprint_share.png" width="66" height="66"/>
         <image name="LSCamera.bundle/ic_waterprint_shutter.png" width="66" height="66"/>
-        <image name="ic_shutter_center_left.png" width="104" height="104"/>
-        <image name="ic_shutter_center_right.png" width="104" height="104"/>
     </resources>
 </document>
