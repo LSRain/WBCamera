@@ -10,13 +10,20 @@
 
 @interface LSCameraViewController ()
 
+@property (nonatomic, strong) IBOutletCollection(NSLayoutConstraint) NSArray * maskViewConstraint;
+
 @end
 
 @implementation LSCameraViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+}
+
+- (IBAction)clickBtnAction:(UIButton *)sender {
+
 }
 
 - (void)didReceiveMemoryWarning {
