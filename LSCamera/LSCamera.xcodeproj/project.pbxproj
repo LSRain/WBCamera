@@ -16,6 +16,7 @@
 		51266EAB1DDC7CC900A3AB4F /* LSCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51266EA91DDC7CC900A3AB4F /* LSCameraViewController.m */; };
 		51266EAC1DDC7CC900A3AB4F /* LSCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51266EAA1DDC7CC900A3AB4F /* LSCameraViewController.xib */; };
 		51266EDB1DDC7D8B00A3AB4F /* LSCamera.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 51266EDA1DDC7D8B00A3AB4F /* LSCamera.bundle */; };
+		51266EDE1DDD35CF00A3AB4F /* LSSportCameraMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51266EDD1DDD35CF00A3AB4F /* LSSportCameraMaskView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,8 @@
 		51266EA91DDC7CC900A3AB4F /* LSCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSCameraViewController.m; sourceTree = "<group>"; };
 		51266EAA1DDC7CC900A3AB4F /* LSCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSCameraViewController.xib; sourceTree = "<group>"; };
 		51266EDA1DDC7D8B00A3AB4F /* LSCamera.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LSCamera.bundle; sourceTree = "<group>"; };
+		51266EDC1DDD35CF00A3AB4F /* LSSportCameraMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSSportCameraMaskView.h; sourceTree = "<group>"; };
+		51266EDD1DDD35CF00A3AB4F /* LSSportCameraMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSSportCameraMaskView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				51266EA81DDC7CC900A3AB4F /* LSCameraViewController.h */,
 				51266EA91DDC7CC900A3AB4F /* LSCameraViewController.m */,
 				51266EAA1DDC7CC900A3AB4F /* LSCameraViewController.xib */,
+				51266EDC1DDD35CF00A3AB4F /* LSSportCameraMaskView.h */,
+				51266EDD1DDD35CF00A3AB4F /* LSSportCameraMaskView.m */,
 			);
 			path = LSCamera;
 			sourceTree = "<group>";
@@ -174,6 +179,7 @@
 				51266E981DDC7B9800A3AB4F /* ViewController.m in Sources */,
 				51266E951DDC7B9800A3AB4F /* AppDelegate.m in Sources */,
 				51266EAB1DDC7CC900A3AB4F /* LSCameraViewController.m in Sources */,
+				51266EDE1DDD35CF00A3AB4F /* LSSportCameraMaskView.m in Sources */,
 				51266E921DDC7B9800A3AB4F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +337,7 @@
 				51266EA61DDC7B9800A3AB4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
